@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>My Flutter App Updates</title>
+        <link>https://yourdomain.com/appcast.xml</link>
+        <description>Release notes for My Flutter App</description>
+        <language>en</language>
+
+        <!-- Latest version (put new versions at the top) -->
+        <item>
+            <title>Version 1.0.1</title>
+            <description>
+                - Fixed login crash
+                - Improved performance
+            </description>
+            <pubDate>Sun, 24 Aug 2025 12:00:00 +0000</pubDate>
+            <enclosure url="https://yourdomain.com/downloads/myapp-1.0.1.ipa"
+                sparkle:version="1.0.1"
+                type="application/octet-stream"/>
+        </item>
+
+        <!-- Previous version -->
+        <item>
+            <title>Version 1.0.0</title>
+            <description>
+                - Initial release
+            </description>
+            <pubDate>Sat, 23 Aug 2025 12:00:00 +0000</pubDate>
+            <enclosure url="https://yourdomain.com/downloads/myapp-1.0.0.ipa"
+                sparkle:version="1.0.0"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

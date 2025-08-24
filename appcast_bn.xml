@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <items version="1">
     <item>
-        <version>1.1.0</version>
-
-        <url>https://github.com/minthanttun/appcasts/edit/main/appcast_bn</url>
+        <version>3.0.0</version>
 
         <changelog>Here are the new features in this version:
             - New UI theme
@@ -14,7 +12,7 @@
         <os>ios</os>
     </item>
     <item>
-        <version>2.1.0</version>
+        <version>3.0.0</version>
         <url>https://play.google.com/store/apps/details?id=com.example.testx.testx</url>
         <os>android</os>
     </item>
